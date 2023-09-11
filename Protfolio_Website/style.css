@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    position: absolute;
+    height: 100vw;
+    transition:transform 0.3s ease-in ;
+    
+}
+
+
+.sidebar nav{
+    background-color: grey;
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+  
+    width: 90vw ;
+}
+
+.container{
+    display: flex;
+}
+.info{
+    
+    height: 45vh;
+    width: 80vw;
+    margin: 144px auto;
+    height: 58vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    width: 382px;
+    height: 58vh; 
+
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+}
+.about{
+font-size: 40px;
+}
+
+.moreabout{
+    font-size: 24px;
+    margin: 23px;;
+
+}
+.buttons{
+    margin-top: 34px;
+    
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius:  22px;
+    color: white;
+    background-color: blue;
+    font-size: 22px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: blue;
+    background-color: white;
+}
+
+.contactform {
+padding: 0 44px;
+
+    padding-top: 144px;
+
+}
+.contactform div{
+    padding: 10px 0;
+}
+
+
+#clientEmail1{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.form-check{
+    flex-direction: row;
+
+}
+
+.form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem{
+    margin: 20px;
+}
+ h1{
+    margin: 23px;
+}
+ h2{
+    margin: 0 12px;
+
+}
+p{
+    margin: 12px;
+}
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.humburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.hum{
+    margin-top: 10px;
+}
+.cross{
+margin-left: 145px;
+margin-top: 10px;
+
+
+
+}
